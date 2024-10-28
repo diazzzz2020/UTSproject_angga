@@ -10,16 +10,19 @@
     android:layout_marginLeft="25dp"
     android:layout_marginRight="25dp"
     android:layout_marginBottom="25dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bgg">
 
     <!-- Logo Aplikasi -->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher_foreground"
+        android:src="@drawable/logow"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="32dp"/>
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="110dp"
+        />
 
     <!-- Username Field -->
     <EditText
@@ -51,16 +54,17 @@
         android:text="@string/login"
         android:layout_gravity="center_horizontal"
         android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        />
 
     <!-- Register Link -->
     <TextView
         android:id="@+id/tvRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register"
         android:layout_gravity="center"
         android:clickable="true"
-        android:focusable="true"/>
+        android:focusable="true"
+        android:text="@string/register" />
 
 </LinearLayout>
